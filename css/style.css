@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 body {
   font-family: "Poppins", sans-serif;
-  color: #0c0c0c;
+  color: #a506a5;
   background-color: #ffffff;
   overflow-x: hidden;
+
 }
 
 .layout_padding {
@@ -381,16 +382,18 @@ a:focus {
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  color: #a506a5;
+  
 }
 
 .service_section .box::before {
   content: "";
-  width: 275px;
-  height: 275px;
+  width: 250px;
+  height: 250px;
   position: absolute;
   right: -137.5px;
   bottom: -137.5px;
-  background-color: #faf8fd;
+  background-color: #210052;
   z-index: -1;
   border-radius: 100%;
   -webkit-transition: all 0.3s;
