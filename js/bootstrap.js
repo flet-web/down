@@ -4464,7 +4464,7 @@ function startDownload(event) {
   const progressText = progressBarContainer.querySelector('.progress-text');
 
   const interval = setInterval(() => {
-    progress += 3; // زيادة التقدم بنسبة 10% كل 2 ثانية
+    progress += 1; // زيادة التقدم بنسبة 10% كل 2 ثانية
     progressBar.style.width = progress + '%';
     progressText.textContent = progress + '%'; // عرض النسبة على النص
 
